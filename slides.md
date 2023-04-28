@@ -4,7 +4,7 @@ background: '/picture/background.jpeg'
 transition: slide-left
 ---
 
-# Kafka的管理和监控
+# Kafka的管理工具介绍
 ### 2023-04-28
 
 ---
