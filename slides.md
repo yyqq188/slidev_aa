@@ -1,53 +1,46 @@
 ---
 layout: cover
+background: '/picture/background.jpeg'
+transition: slide-left
 ---
 
-# page1
+# Kafka的管理和监控
+### 2023-04-28
 
-Hello, World!  23232323
-```
-console.log('aaa')
-```
-
-```ts { 2,3 }
-function add(
-  a: Ref<number> | number,
-  b: Ref<number> | number
-) {
-  return computed(() => unref(a) + unref(b))
-}
-```
-指定修改的行
-```ts {2,3 | 5 }
-function add(
-  a: Ref<number> | number,
-  b: Ref<number> | number
-) {
-  return computed(() => unref(a) + unref(b))
-}
-```
+---
+src: 'pages/slides2.md'
+---
 
 
 ---
-
-# Page 2
-这是第二页
-
-在线修改
-```ts {monaco}
-console.log('HelloWorld')
-```
-
-![Remote Image](<https://sli.dev/favicon.png>)
-
+src: 'pages/slides3.md'
 ---
 
-# 第三页
-这是第三页
-
-<div v-click>Hello</div>
-<div v-after>World</div>
+---
+src: 'pages/slides4.md'
+---
 
 
 
-<!-- 这是一条备注 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+layout: cover
+background: '/picture/background.jpeg'
+---
+# 实践
+ip
+地址
+截图
+操作
