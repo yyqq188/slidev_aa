@@ -39,8 +39,36 @@ src: 'pages/slides4.md'
 layout: cover
 background: '/picture/background.jpeg'
 ---
-# 实践
-ip
-地址
-截图
-操作
+
+<v-clicks>
+
+# 本地
+
+![kafka shell 工具命令]('/picture/jietu1.png')
+
+</v-clicks>
+
+---
+layout: cover
+background: '/picture/background.jpeg'
+---
+# 本地
+<v-clicks>
+
+## 根据时间戳获得offset
+
+### 工具一
+
+```shell
+./kafka-run-class.sh kafka.tools.GetOffsetShell 
+--broker-list xx:9092,xx:9092,xx:9092 
+--topic T_PREM_ARAP 
+--time 1677686430000
+```
+
+### 工具二
+
+![java工具]('/picture/jietu2.png')
+
+</v-clicks>
+
