@@ -243,3 +243,28 @@ transition: fade-out
 ## <font color=#369d82>AbstractWriter</font>
 
 </div>
+
+
+
+---
+layout: cover
+background: '/picture/background2.jpeg'
+transition: fade-out
+---
+
+## 更新jar包内的json配置文件
+
+
+
+
+<div style="display: flex;justify-content: center;align-items: center;margin-top: 30px">
+
+```shell
+jar tf demo_my-1.0-SNAPSHOT.jar
+
+jar xf demo_my-1.0-SNAPSHOT.jar demo.json
+
+jar uf demo_my-1.0-SNAPSHOT.jar demo.json
+```
+
+</div>
