@@ -79,7 +79,7 @@ JavaRDD<Person> personRDD = sourceRDD.map(line -> line.split(","))
             person.setAge(Integer.valueOf(x[1]));
             return person;
         });
-Dataset<Row> personDF = spark.createDataFrame(personRDD, Person.class);
+Dataset<Row> personDF = spark.createDataFrame(personRDD, Person.class);✅
 personDF.createOrReplaceTempView("person");
 Dataset<Row> resultDF = spark.sql("select * from person");
 resultDF.show();
@@ -124,7 +124,7 @@ JavaRDD<Row> rowRDD = peopleRDD.map(record -> {
     String[] attributes = record.split(",");
     return RowFactory.create(attributes[0], attributes[1].trim());
 });
-Dataset<Row> peopleDataFrame = spark.createDataFrame(rowRDD, schema);
+Dataset<Row> peopleDataFrame = spark.createDataFrame(rowRDD, schema);✅
 peopleDataFrame.createOrReplaceTempView("people");
 Dataset<Row> resultsDF = spark.sql("SELECT name FROM people");
 resultsDF.show();
